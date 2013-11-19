@@ -1,0 +1,13 @@
+{
+    "name": "espn",
+    "description": "ESPN API helper library",
+    "version": "0.0.1",
+    "author": "Anthony Lawson <anthony.g.lawson@gmail.com>",
+    "dependencies": {
+        "request": "2.27.x"
+    },
+    "main": "./lib",
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}
