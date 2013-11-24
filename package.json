@@ -3,6 +3,10 @@
     "description": "ESPN API helper library",
     "version": "0.0.1",
     "author": "Anthony Lawson <anthony.g.lawson@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alawson421/espn-node.git"
+    },
     "dependencies": {
         "request": "2.27.x"
     },
