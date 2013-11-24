@@ -75,31 +75,31 @@ resource object provided by the `espn-node` object:
 **NOTE:** The current release (**0.0.1**) is currently a pre-release version and only implements the ESPN Now API.
 
 + **0.1**
-..+Initial stable release that implements the ESPN Now API
+  +Initial stable release that implements the ESPN Now API
 + **0.2**
-..+Implements the ESPN Headlines API
+  +Implements the ESPN Headlines API
 + **0.3**
-..+Implements the ESPN Athletes API
+  +Implements the ESPN Athletes API
 + **0.4**
-..+Implements the ESPN Teams API
+  +Implements the ESPN Teams API
 + **0.5**
-..+Implements the ESPN Scores & Schedules API
+  +Implements the ESPN Scores & Schedules API
 + **0.6**
-..+Implements the ESPN Standings API
+  +Implements the ESPN Standings API
 + **0.7**
-..+Implements the ESPN Research Notes API
+  +Implements the ESPN Research Notes API
 + **0.8**
-..+Implements the ESPN WatchESPN API
+  +Implements the ESPN WatchESPN API
 + **0.9**
-..+Implements the ESPN Audio API
+  +Implements the ESPN Audio API
 + **0.10**
-..+Implements the ESPN Video API
+  +Implements the ESPN Video API
 + **0.11**
-..+Implements the ESPN Calendar API
+  +Implements the ESPN Calendar API
 + **0.12**
-..+Implements the ESPN Medals API
+  +Implements the ESPN Medals API
 + **1.0**
-..+Implements all ESPN APIs
+  +Implements all ESPN APIs
 
 ## Authors
 
