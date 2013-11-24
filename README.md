@@ -101,7 +101,7 @@ resource object provided by the `espn-node` object:
 + **1.0**
   + Implements all ESPN APIs
 
-## Authors
+## Author
 
 **Anthony Lawson**
 
