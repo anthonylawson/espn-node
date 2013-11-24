@@ -61,8 +61,8 @@ espn.now( function (err, json) {
 
 ### ESPN API Resources
 
-There are several different types of ESPN APIs available. The following is a mapping of the ESPN API name to the
-resource object provided by the `espn-node` object:
+There are several different types of ESPN APIs available. The following is a list of ESPN API resources provided by the
+`espn-node` object:
 
 #### Now API
 
