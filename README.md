@@ -1,15 +1,22 @@
-# espn-node
+# espn-node [alpha]
 
 [![NPM](https://nodei.co/npm/espn.png?downloads=true&stars=true)](https://nodei.co/npm/espn/)
 
 This is a helper library for the ESPN API.
 
 ```javascript
-var espn = require('espn')('YOUR_ESPN_API_KEY');
-espn.now( function (err, json) {
-    if (err) return console.error(err);
-    console.log(json);
-}
+var espn = require('espn');
+
+espn
+    .setApiKey('YOUR_ESPN_API_KEY')
+    .now( function (err, json) {
+        if (err) {
+            console.error(err);
+            return;
+        }
+
+        console.log(json);
+    });
 ```
 
 ## Installation
@@ -47,14 +54,29 @@ npm install espn
 To begin using the `espn-node` library, initialize an object with you ESPN API key:
 
 ```javascript
-var espn = require('espn')('YOUR_ESPN_API_KEY');
+var espn = require('espn');
+
+espn.setApiKey('YOUR_ESPN_API_KEY');
+```
+
+### Alternate API Key Setting
+
+Instead of making an explicit call to `setApiKey`, you can set the API key on the process when you start up your
+Node.js application by setting the following environment variable:
+
+```bash
+API_KEY=YOUR_API_KEY node index.js
 ```
 
 Then you can make calls to the ESPN API:
 
 ```javascript
 espn.now( function (err, json) {
-    if (err) return console.error(err);
+    if (err) {
+        console.error(err);
+        return;
+    }
+
     console.log(json);
 }
 ```
@@ -72,10 +94,11 @@ There are several different types of ESPN APIs available. The following is a lis
 
 ## RoadMap
 
-**NOTE:** The current release (**0.0.1**) is currently a pre-release version and only implements the ESPN Now API.
+**NOTE:** The current release (**0.0.2**) is currently a pre-release version and only implements the ESPN Now API.
 
 + **0.1**
-  + Initial stable release that implements the ESPN Now API
+  + Initial stable release that implements the ESPN Now API and Helper API
+  + Testing setup
 + **0.2**
   + Implements the ESPN Headlines API
 + **0.3**
