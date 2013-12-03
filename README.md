@@ -28,7 +28,7 @@ To use `espn-node` in your project, simply add the following to your `package.js
     ...
     "dependencies": {
         ...
-        "espn": "0.0.2"
+        "espn": "0.0.3"
     }
 }
 ```
