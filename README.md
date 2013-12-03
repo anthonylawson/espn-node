@@ -94,7 +94,7 @@ There are several different types of ESPN APIs available. The following is a lis
 
 ## RoadMap
 
-**NOTE:** The current release (**0.0.2**) is currently a pre-release version and only implements the ESPN Now API.
+**NOTE:** The current release (**0.0.3**) is currently a pre-release version and only implements the ESPN Now API.
 
 + **0.1**
   + Initial stable release that implements the ESPN Now API and Helper API
