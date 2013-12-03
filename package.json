@@ -1,7 +1,7 @@
 {
     "name": "espn",
     "description": "ESPN API helper library",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Anthony Lawson <anthony.g.lawson@gmail.com>",
     "repository": {
         "type": "git",
